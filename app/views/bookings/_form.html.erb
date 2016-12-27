@@ -1,0 +1,7 @@
+<%= simple_form_for @booking do |f| %>
+  <%= f.input :departure %>
+  <%= f.input :arrival %>
+  <%= f.input :seat %>
+  <%= f.input :luggage %>
+  <%= f.button :submit, value: 'Submit' %>
+<% end %>
